@@ -10,7 +10,6 @@ int main() {
     scanf("%s",a);
     for(x=0;x<=strlen(a);x++){
         for(y=0;y<=strlen(a);y++){
-            t[x] = a[y],a[x];
             printf("%c %c",a[y],a[x]);
         }   
     }
